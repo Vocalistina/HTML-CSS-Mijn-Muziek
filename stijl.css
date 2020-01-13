@@ -1,0 +1,75 @@
+body {
+    background: #474d57;
+    font-family: Roboto, Verdana sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+
+nav {
+    max-height: border-box;
+    max-width: 100%;
+}
+.noBullets {
+    max-height: border-box;
+    max-width: 75%;
+    list-style-type: none;
+    display: inline-block;
+    text-underline-style: none;
+    text-underline: none;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+.noBullets li {
+    border-style: solid;
+    border: white;
+    border: 1px;
+    margin: 60px;
+    display: inline-block;
+    text-align: left;
+    text-underline-style: none;
+    text-underline: none;
+    text-decoration: none;
+}
+
+.blauw {
+    background-color: #add8e6;
+    border: #ff8c00;
+    width: available;
+}
+
+.beige-rose {
+    background: #ffcc81;
+    border: #ff8c00;
+}
+
+.rose {
+    background: #ffb6c1;
+    border: #ff8c00;
+}
+
+.groen {
+    background: #90ee90;
+    border: #ff8c00;
+}
+
+.lichtgeel {
+    background: #ffffe0;
+    border: #ff8c00;
+}
+
+
+/*opmaak van links*/
+
+a:hover {
+    font-size: 30px;
+    text-underline-style: none;
+}
+a:any-link, a:visited {
+    color: #ffc0cb;
+    text-underline: none;
+    text-decoration: none;
+}
