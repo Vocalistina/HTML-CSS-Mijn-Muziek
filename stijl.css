@@ -14,20 +14,17 @@ body {
     text-underline-style: none;
     text-underline: none;
     text-decoration: none;
-
-
-
 }
 .noBullets li {
     border: 1px solid #ffffff;
+    height: fit-content;
     border-radius: 15px;
     display: inline-block;
-    padding: 5px;
+    padding: 15px;
     text-align: left;
     text-underline-style: none;
     text-underline: none;
     text-decoration: none;
-
 }
 
 .blauw {
