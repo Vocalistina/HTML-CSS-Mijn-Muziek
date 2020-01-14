@@ -6,59 +6,131 @@ body {
     width: 100%;
 }
 
+.albumicoontjes li {
+    list-style-type: none;
+    padding-left: 200px;
+    padding-top: 0px;
+    height: 300px;
+    margin: 0;
+    background: url("./assets/albumicoon.png") no-repeat left top;
+
+}
+table {
+    float: right;
+    border-collapse: collapse;
+    border: 1px solid #ffffff;
+    table-layout: auto;
+    max-width: 350px;
+    width: 350px;
+
+}
+tbody{
+    font-size: 10px;
+    border: 1px solid #ffffff
+}
+th {
+    border: 1px solid #ffffff;
+}
+td{
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+}
+
+tr {
+    border: 1px solid #ffffff;
+    height: 30px;
+}
+tr > td:first-child{
+    width: 150px;
+}
+tbody td:nth-last-child(1){
+    width: 50px;
+    text-align: center;
+}
+
 
 .noBullets {
-    height: fit-content;
-    width: 100%;
     list-style-type: none;
     text-underline-style: none;
     text-underline: none;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 .noBullets li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.noBullets li a {
+    line-height: 0px;
     border: 1px solid #ffffff;
-    height: fit-content;
     border-radius: 15px;
-    display: inline-block;
-    padding: 15px;
-    text-align: left;
+    display: block;
+    text-align: center;
+    vertical-align: center;
     text-underline-style: none;
     text-underline: none;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+.noBullets li a:hover {
+    background: #606060;
+    color: #ffcc81;
 }
-
-.blauw {
-    background-color: #add8e6;
-    border: #ff8c00;
+h2 {
     width: available;
 }
 
+.blauw {
+    background: #add8e6;
+    border: solid #ff8c00;
+ }
+
 .beige-rose {
     background: #ffcc81;
-    border: #ff8c00;
+    border: solid #ff8c00;
 }
 
 .rose {
     background: #ffb6c1;
-    border: #ff8c00;
+    border: solid #ff8c00;
 }
 
 .groen {
     background: #90ee90;
-    border: #ff8c00;
+    border: solid #ff8c00;
 }
 
 .lichtgeel {
     background: #ffffe0;
-    border: #ff8c00;
+    border: solid #ff8c00;
+}
+
+.textaanpassing,
+.textaanpassing a:any-link{
+    color: #606060;
+    text-underline: #606060;
+    padding: 0;
+    margin: 0;
+}
+
+.textaanpassing div {
+    padding: 10px 10px;
+    vertical-align: center;
+    margin: 20px;
 }
 
 
 /*opmaak van links*/
 
-a:hover {
+ol a:hover,
+ul a:hover {
     font-size: 30px;
-    text-underline-style: none;
 }
 a:any-link, a:visited {
     color: #ffc0cb;
